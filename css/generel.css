@@ -28,10 +28,10 @@ h2 {
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
+  text-align: center;
 }
 
 h3 {
-  color: #352a1b;
   color: #352a1b;
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
@@ -40,7 +40,6 @@ h3 {
 }
 
 h4 {
-  color: #352a1b;
   color: #352a1b;
   font-family: "Nunito Sans", sans-serif;
   font-optical-sizing: auto;
@@ -54,4 +53,41 @@ p {
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 15px;
+  margin: 20px;
+}
+
+/*links*/
+a {
+  color: #352a1b;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 15px;
+  margin: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.overskrift {
+  text-align: center;
+}
+/*Banner på forsiden med 1. semster multimediedesign*/
+.banner {
+  background-color: #edd2d0;
+  text-align: center;
+}
+/*Giver luft rundt om billederne på forsiden*/
+.forside_billede {
+  padding: 20px;
+}
+/*Footer*/
+.footer {
+  color: black;
+  background-color: #edd2d0;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }

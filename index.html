@@ -12,15 +12,80 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/generel.css" />
+    <link rel="stylesheet" href="css/menu.css" />
     <link rel="stylesheet" href="css/layout.css" />
   </head>
   <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="logo.svg" alt="Logo" />
+        </a>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="om_mig.html">Om os</a></li>
+        </ul>
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </nav>
+    </header>
     <main>
-      <h1>hej</h1>
-      <h2>hej</h2>
-      <h3>hej</h3>
-      <h4>hej</h4>
-      <p>hej</p>
+      <h1 class="overskrift">Portfolio af Clara Victoria Muxoll Storkfelt</h1>
+      <section class="grid_1_1">
+        <div>
+          <img
+            class="forside_billede"
+            src="pics/forside_billede.webp"
+            alt="Billede af mig"
+          />
+        </div>
+        <div id="tekst">
+          <p>
+            Velkommen til mit portfolio for 1. semester. Her præsenteres et
+            samlet overblik over mit arbejde og min læring gennem første
+            semester på multimediedesignuddannelsen på EK. Portfolioet giver
+            indblik i mine arbejdsprocesser, refleksioner og faglige
+            overvejelser i forbindelse med de forskellige temaer, vi har
+            arbejdet med.
+          </p>
+        </div>
+      </section>
+      <div class="banner">
+        <br />
+        <h3>1. semester - Multimediedesign</h3>
+        <br />
+      </div>
+      <h3>Her kan du læse mere om</h3>
+      <section class="grid_1_1">
+        <div class="card">
+          <a href="om_mig.html"
+            ><img class="forside_billede" src="pics/clara.webp" alt="clara" />
+            <h2>Om mig</h2></a
+          >
+        </div>
+        <div class="card">
+          <a href="portfolio.html"
+            ><img class="forside_billede" src="pics/studie.webp" alt="studie" />
+            <h2>Portfolio</h2></a
+          >
+        </div>
+      </section>
     </main>
+    <footer class="footer">
+      <p>Email: clst1000@stud.ek.dk</p>
+      <p>Telefon nr: +45 23 88 66 27</p>
+
+      <a href="kontakt.html"
+        ><p><strong>Kontakt</strong></p></a
+      >
+    </footer>
+
+    <script src="menu.js"></script>
   </body>
 </html>
