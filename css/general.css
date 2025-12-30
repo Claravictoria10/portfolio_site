@@ -14,6 +14,14 @@ body {
   background-color: #fffbf6;
 }
 
+main {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
 h1 {
   color: #352a1b;
   font-family: "Jersey 25", sans-serif;
@@ -78,16 +86,82 @@ a:hover {
   background-color: #edd2d0;
   text-align: center;
 }
-/*Giver luft rundt om billederne på forsiden*/
-.forside_billede {
-  padding: 20px;
+
+/*Overskriften på siderne om mig, portfolio og temaer*/
+#overskift_h2 {
+  background-color: #edd2d0;
+  padding: 0 100px;
 }
+
+/*Mit navn på siden om mig*/
+#navn {
+  text-align: center;
+}
+
+/*Knap*/
+.button {
+  background-color: #edd2d0;
+  color: #352a1b;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 15px;
+  font-style: normal;
+  padding: 7px 50px;
+  border-color: #e4aaa6;
+  border-radius: 5px;
+}
+/*Knap når mus er på*/
+.button:hover {
+  background-color: #e1c6c4;
+  border-color: #daa29e;
+  font-weight: bold;
+}
+
+/*Opdelingsstreg på siden*/
+.devider {
+  color: #a7937a;
+}
+/*Giver luft rundt om billederne på forsiden*/
+.mobile {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 /*Footer*/
 .footer {
-  color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: #352a1b;
+  text-align: center;
   background-color: #edd2d0;
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 10px;
   padding-top: 10px;
+}
+
+.programmer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* ✅ centrerer billedet */
+  text-align: center;
+}
+
+.programmer img {
+  display: block;
+  width: 90px;
+}
+
+.grid_1_1_1_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.folder {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* ✅ centrerer billedet */
+  text-align: center;
 }
