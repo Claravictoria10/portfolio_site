@@ -110,3 +110,15 @@
     font-size: 24px;
   }
 }
+
+/*Forms*/
+@media screen and (min-width: 800px) {
+  input,
+  textarea {
+    width: 500px;
+  }
+
+  label {
+    font-size: 17px;
+  }
+}
