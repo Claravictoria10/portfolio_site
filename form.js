@@ -20,3 +20,9 @@ function handleSubmit(event) {
 }
 
 form.addEventListener("submit", handleSubmit);
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  alert("Tak for sin besked!");
+  form.reset();
+});

@@ -28,6 +28,17 @@
   .mobile {
     padding: 0;
   }
+
+  .my-video {
+    max-width: 1100px;
+    padding: 0;
+  }
+
+  .monster {
+    max-width: 400px;
+    display: block; /* vigtigt */
+    margin: 0; /* centrer */
+  }
 }
 
 /*Grids*/

@@ -126,6 +126,15 @@ a:hover {
   padding-right: 10px;
 }
 
+/*Videoen på siden om mig*/
+.my-video {
+  max-width: 450px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: block; /* vigtigt */
+  margin: 0 auto; /* centrer */
+}
+
 /*Footer*/
 .footer {
   display: grid;
@@ -203,6 +212,7 @@ label {
 /*Rød farve når der er intastet forkert information*/
 .error-message {
   color: darkred;
+  margin: 0;
 }
 
 /* Form layout */
