@@ -116,6 +116,8 @@ a:hover {
   border-color: #e4aaa6;
   border-radius: 5px;
   width: 250px;
+  display: block;
+  margin: 0 auto;
 }
 
 /*Knap på om mig*/
@@ -139,6 +141,12 @@ a:hover {
   font-weight: bold;
 }
 
+/*Knap når mus er på*/
+.button_om_mig:hover {
+  background-color: #e1c6c4;
+  border-color: #daa29e;
+  font-weight: bold;
+}
 /*Opdelingsstreg på siden*/
 .devider {
   color: #a7937a;
@@ -147,6 +155,11 @@ a:hover {
 .mobile {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.grid_mobilesite {
+  width: 400px;
+  margin: 0 auto;
 }
 
 /*Videoen på siden om mig*/
@@ -158,6 +171,7 @@ a:hover {
   margin: 0 auto; /* centrer */
 }
 
+/*Skaber gridet, soom bruges på tema - 2 og tema - 5 ift billederne øverst*/
 .grid_1_1_portfolio {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -258,13 +272,12 @@ article[popover]::backdrop {
   padding: 25px;
   margin: 0 auto; /* centrerer horisontalt */
   justify-content: center;
-  background-color: #ece1d4;
 }
 
 /*Der hvor man skriver sine oplysninger*/
 input,
 textarea {
-  border-radius: 9px;
+  border-radius: 3px;
   border: 1px solid #352a1b;
   padding: 5px;
   background-color: #fffbf6;
@@ -273,6 +286,10 @@ textarea {
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 15px;
+}
+
+textarea {
+  height: 160px;
 }
 
 /*Teksten over input*/
@@ -300,7 +317,7 @@ form {
 
   .form-group {
     display: grid;
-    gap: 10px;
+    gap: 5px;
   }
 
   label:has(input) {
@@ -308,13 +325,6 @@ form {
     align-items: center;
     justify-self: start;
   }
-}
-
-/* Pseudo-classes */
-:focus-visible {
-  /* virker til både knapper og input-felter, select, textarea, links mm. */
-  outline: 2px solid slateblue;
-  outline-offset: 1px;
 }
 
 /* Valideringsregler */
