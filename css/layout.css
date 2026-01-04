@@ -48,6 +48,14 @@
   .button {
     width: 350px;
   }
+
+  #desktop {
+    width: 500px;
+  }
+
+  #telefon {
+    width: 140px;
+  }
 }
 
 /*Grids*/
