@@ -40,6 +40,14 @@
   .monster {
     width: 400px;
   }
+
+  .logo_footer {
+    max-width: 160px;
+  }
+
+  .button {
+    width: 350px;
+  }
 }
 
 /*Grids*/
@@ -50,6 +58,7 @@
     gap: 60px;
     align-items: center;
   }
+
   /*Denne gør at teksten på forsiden sidder i midten af gridet*/
   #tekst {
     grid-column: 1;

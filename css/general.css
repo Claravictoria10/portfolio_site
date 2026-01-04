@@ -112,10 +112,25 @@ a:hover {
   font-optical-sizing: auto;
   font-size: 15px;
   font-style: normal;
-  padding: 7px 50px;
+  padding: 7px 25px;
+  border-color: #e4aaa6;
+  border-radius: 5px;
+  width: 250px;
+}
+
+/*Knap på om mig*/
+.button_om_mig {
+  background-color: #edd2d0;
+  color: #352a1b;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 15px;
+  font-style: normal;
+  padding: 7px 25px;
   border-color: #e4aaa6;
   border-radius: 5px;
   margin: 10px;
+  width: 120px;
 }
 /*Knap når mus er på*/
 .button:hover {
@@ -154,8 +169,16 @@ a:hover {
   padding-right: 5px;
   padding-bottom: 10px;
   padding-top: 10px;
+  align-items: center; /* lodret centreret i hver celle */
+  justify-items: center; /* vandret centreret i hver celle */
 }
 
+/*Størrelsen på billedet i footeren*/
+.logo_footer {
+  max-width: 120px;
+}
+
+/*Gør at alt ligger i midten af gridet på portfolio site*/
 .programmer {
   text-align: center;
   display: flex;
@@ -163,7 +186,7 @@ a:hover {
   align-items: center; /* ✅ centrerer billedet */
   text-align: center;
 }
-
+/*Design til svg'erne på portfolio site*/
 .programmer img {
   display: block;
   width: 90px;
