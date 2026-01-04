@@ -23,6 +23,6 @@ form.addEventListener("submit", handleSubmit);
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
-  alert("Tak for sin besked!");
+  alert("Tak for din besked!");
   form.reset();
 });
