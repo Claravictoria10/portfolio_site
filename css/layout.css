@@ -108,6 +108,13 @@
     gap: 60px;
     align-items: center;
   }
+
+  .grid_1_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
 }
 
 /*Design for popover*/
