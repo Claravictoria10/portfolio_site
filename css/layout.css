@@ -93,6 +93,7 @@
   }
 }
 
+/*Design for popover*/
 @media screen and (min-width: 900px) {
   .pop {
     width: 1200px;
