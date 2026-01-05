@@ -250,12 +250,15 @@ article[popover]::backdrop {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 20px;
   background-color: #fffbf6;
   width: min(390px, 100vw);
+  padding: 25px;
   max-height: 95vh;
   overflow-y: auto;
-  border-color: #e1c6c4;
+  border: none;
+  outline: 2.5px solid #e2cfc9;
+  outline-offset: -7px; /* rykker den ind */
+  padding: 24px;
 }
 
 /*KONTAKT MIG NEDENUNDER*/
