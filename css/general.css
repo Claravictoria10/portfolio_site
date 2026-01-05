@@ -34,7 +34,6 @@ h1 {
 h2 {
   color: #352a1b;
   font-family: "Nunito Sans", sans-serif;
-  font-optical-sizing: auto;
   font-style: normal;
   font-size: 25px;
 }
@@ -51,7 +50,6 @@ h3 {
 h4 {
   color: #352a1b;
   font-family: "Nunito Sans", sans-serif;
-  font-optical-sizing: auto;
   font-style: normal;
   font-size: 20px;
 }
@@ -59,7 +57,6 @@ h4 {
 p {
   color: #352a1b;
   font-family: "Nunito Sans", sans-serif;
-  font-optical-sizing: auto;
   font-style: normal;
   font-size: 15px;
   margin: 16px;
@@ -68,7 +65,6 @@ p {
 li {
   color: #352a1b;
   font-family: "Nunito Sans", sans-serif;
-  font-optical-sizing: auto;
   font-style: normal;
   font-size: 15px;
 }
@@ -77,7 +73,6 @@ li {
 a {
   color: #352a1b;
   font-family: "Nunito Sans", sans-serif;
-  font-optical-sizing: auto;
   font-size: 15px;
   margin: 20px;
   text-decoration: none;
@@ -109,7 +104,6 @@ a:hover {
   background-color: #edd2d0;
   color: #352a1b;
   font-family: "Nunito Sans", sans-serif;
-  font-optical-sizing: auto;
   font-size: 15px;
   font-style: normal;
   padding: 7px 25px;
@@ -126,7 +120,6 @@ a:hover {
   background-color: #edd2d0;
   color: #352a1b;
   font-family: "Nunito Sans", sans-serif;
-  font-optical-sizing: auto;
   font-size: 15px;
   font-style: normal;
   padding: 7px 25px;
@@ -284,7 +277,6 @@ textarea {
   background-color: #fffbf6;
   width: 300px;
   font-family: "Nunito Sans", sans-serif;
-  font-optical-sizing: auto;
   font-style: normal;
   font-size: 15px;
 }
@@ -297,7 +289,6 @@ textarea {
 label {
   color: #352a1b;
   font-family: "Nunito Sans", sans-serif;
-  font-optical-sizing: auto;
   font-style: normal;
   font-size: 15px;
   margin: 7px;
@@ -315,30 +306,33 @@ form {
   display: grid;
   gap: 10px;
   padding: 10px;
-
-  .form-group {
-    display: grid;
-    gap: 5px;
-  }
-
-  label:has(input) {
-    display: flex;
-    align-items: center;
-    justify-self: start;
-  }
 }
 
+.form-group {
+  display: grid;
+  gap: 5px;
+}
+
+label:has(input) {
+  display: flex;
+  align-items: center;
+  justify-self: start;
+}
 /* Valideringsregler */
 /* Skjul fejlmeddelelsen som standard */
 .error-message {
   display: none;
 }
+
+/*TJEK DOBBELT TJEK*/
 .form-group:has(:required) {
   label::after {
     content: " *";
     color: red;
   }
 }
+
+/*TJEK DOBBELT TJEK*/
 /* Tilføj rød kant omkring input-feltet, hvis det er ugyldigt */
 .form-group:has(:user-invalid) {
   input {
